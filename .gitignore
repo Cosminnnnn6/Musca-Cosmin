@@ -1,0 +1,5 @@
+#Ignorando todas las carpetas de compilacion
+output/
+build/
+dist/
+bin/
