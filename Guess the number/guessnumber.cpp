@@ -18,7 +18,7 @@ do {
         cout<<" Number= ";
         cin>>attempt;
         attemptUser++;
-        int difference = abs(randomNum - attempt);
+        
 
         if(attempt<randomNum) {
 
@@ -29,6 +29,7 @@ else if(attempt>randomNum) {
 
 } else {
     cout<< "Congrats"<<endl;
+    cout<<attemptUser<<" tries"<<endl;
     break;
 }
 
