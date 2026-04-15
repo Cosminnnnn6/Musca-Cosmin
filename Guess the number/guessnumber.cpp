@@ -15,21 +15,21 @@ randomNum = rand() % 100+1;
 
 // make an attempt & save it
 do {
-        cout<<" Number= ";
+        cout<<" Introduce a number between 1-100= ";
         cin>>attempt;
         attemptUser++;
         
 
         if(attempt<randomNum) {
 
-            cout<<"Too low"<<endl;
+            cout<<"Number is too low"<<endl;
         }
-else if(attempt>randomNum) {
-    cout<<"Too high "<<endl;
+    else if(attempt>randomNum) {
+        cout<<"Number is too high "<<endl;
 
-} else {
-    cout<< "Congrats"<<endl;
-    cout<<attemptUser<<" tries"<<endl;
+}   else {
+        cout<< "Congrats, you won in "<<attemptUser<<" tries"<<endl;
+    
     break;
 }
 
