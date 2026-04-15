@@ -10,7 +10,7 @@ int main(){
 
 int randomNum,attempt,attemptUser;
 attemptUser=0;
-randomNum = rand() % 100+1;
+randomNum = rand() % 10000+1;
 
 
 // make an attempt & save it
