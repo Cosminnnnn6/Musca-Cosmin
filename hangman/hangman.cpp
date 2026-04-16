@@ -38,7 +38,7 @@ std::string getRandomWord() {
 void playGame() {
     std::string word = getRandomWord();
     std::string guessedWord(word.size(), '_');
-    int maxAttempts = 6;
+    int maxAttempts = 12;
     int attempts = 0;
     std::vector<char> guessedLetters;
 
